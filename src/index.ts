@@ -1,9 +1,5 @@
-import "./styles.css";
+let inicial: number = 450.5;
+let descuento: number = 0.1;
+let peciofinal: number = inicial * descuento;
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>`;
+console.log(inicial * descuento - inicial);
